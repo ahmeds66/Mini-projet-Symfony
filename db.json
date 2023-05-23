@@ -1,0 +1,69 @@
+
+{
+"user" : [
+    {
+        "id_user": 1,
+        "username": "user1",
+        "password": "password1"
+    },
+    {
+        "id_user": 2,
+        "username": "user2",
+        "password": "password2"
+    },
+    {
+        "id_user": 3,
+        "username": "user3",
+        "password": "password3"
+    }
+],
+
+"posts" : [
+    {
+        "id_post": 1,
+        "title": "title1",
+        "content": "content1",
+        "date": "date1",
+        "id_user": 1
+    },
+    {
+        "id_post": 2,
+        "title": "title2",
+        "content": "content2",
+        "date": "date2",
+        "id_user": 2
+    },
+    {
+        "id_post": 3,
+        "title": "title3",
+        "content": "content3",
+        "date": "date3",
+        "id_user": 3
+    }
+],
+
+"comments" : [
+    {
+        "id_comment": 1,
+        "content": "content1",
+        "date": "date1",
+        "id_user": 1,
+        "id_post": 1
+    },
+    {
+        "id_comment": 2,
+        "content": "content2",
+        "date": "date2",
+        "id_user": 2,
+        "id_post": 2
+    },
+    {
+        "id_comment": 3,
+        "content": "content3",
+        "date": "date3",
+        "id_user": 3,
+        "id_post": 3
+    }
+]
+
+}

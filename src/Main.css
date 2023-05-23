@@ -1,0 +1,4 @@
+/*the images are rounded*/
+img {
+  border-radius: 50%;
+}
